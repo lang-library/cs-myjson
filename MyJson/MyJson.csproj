@@ -2,7 +2,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>2024.0503.2359.57</Version>
+    <Version>2024.0505.1142.53</Version>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>MyJson</RootNamespace>
@@ -47,7 +47,7 @@
   <ItemGroup>
     <!--<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />-->
     <!--<PackageReference Include="xunit" Version="2.8.0" />-->
-    <PackageReference Include="JsoncParser" Version="2024.503.2346.1" />
+    <PackageReference Include="JsoncParser" Version="2024.505.1131.9" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="" />

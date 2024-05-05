@@ -42,7 +42,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 #endregion License and information
 
-using Globals;
+using Global;
 using System;
 using System.Collections;
 using System.Collections.Generic;

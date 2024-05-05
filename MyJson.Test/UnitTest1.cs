@@ -87,7 +87,7 @@ public class Tests
         Assert.That(json, Is.EqualTo("""[true,false,null]"""));
         MyData array = MyData.FromJson(json);
         tool.Echo($"array.IsArray: {array.IsArray}");
-        Assert.True(array.IsArray);
+        Assert.That(array.IsArray, Is.EqualTo(true));
         var array2 = array.AsStringArray;
         CheckObjectJson(array2, """["True","False","null"]""");
     }
@@ -97,7 +97,7 @@ public class Tests
         string json = ObjectToJson(tool, 123);
         Assert.That(json, Is.EqualTo("""123"""));
         MyData array = MyData.FromJson(json);
-        Assert.False(array.IsArray);
+        Assert.That(array.IsArray, Is.EqualTo(false));
         var array2 = array.AsStringArray;
         CheckObjectJson(array2, """null""");
     }
